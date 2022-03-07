@@ -90,12 +90,12 @@ def reboot():
         os.system(reboot_command)
     else:
         print("Reboot PC later for commands to complete")
-        quit()
 
 #Gives the user an option to reboot after they have made the selection
 
 def show_license():
     print("Please visit for more details: https://github.com/TheTurnnip/winpytest/blob/master/LICENSE")
+    exit_sig=input("Press any key to exit...")
 
 #Provides the user with the details of GPL V3.0
 
